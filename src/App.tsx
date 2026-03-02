@@ -47,7 +47,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/channel-ops">
           <Routes>
             {/* Auth Route (no layout) */}
             <Route path="/auth" element={<Auth />} />
